@@ -42,4 +42,15 @@ Update the file paths in the main() function:
 python lunar_sfs.py
 ```
 
+Outputs
+
+The script generates:
+
+    lunar_dem.npy: NumPy array containing elevation values (meters)
+
+    lunar_dem.png: Visual representation of the DEM
+
+    dem_result.png: Side-by-side comparison of input image and DEM
+
+
 

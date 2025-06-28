@@ -3,7 +3,7 @@
 # Lunar Digital Elevation Model (DEM) Generation using Shape-from-Shading
 
 This project implements a Shape-from-Shading (SfS) algorithm to estimate lunar surface topography from single images captured by the Orbiter High Resolution Camera (OHRC). The method uses photometric cues and known illumination parameters to reconstruct surface elevation.
-![Alt text](images/pipe.png)
+![Alt text](images/process flow diagram.png)
 ## Features
 
 - XML metadata parsing for camera and illumination parameters
@@ -27,6 +27,8 @@ Install requirements with:
 ```bash
 pip install opencv-python numpy scipy matplotlib tqdm
 ```
+
+![Alt text](images/architecture diagram.png)
 
 ## Usage
 
@@ -52,5 +54,6 @@ The script generates:
 
     dem_result.png: Side-by-side comparison of input image and DEM
 
+![Alt text](images/results.png)
 
 
